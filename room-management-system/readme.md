@@ -159,7 +159,7 @@ aadhaar-images
 # 7. Clone Project
 
 ```bash
-git clone https://github.com/YOUR_REPO/room-management-system.git
+git clone https://github.com/S-kailas/Project-Room-management-system.git
 cd room-management-system
 ```
 
