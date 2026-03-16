@@ -1,0 +1,87 @@
+.
+├── backend
+│  ├── app
+│  │  ├── __init__.py
+│  │  ├── auth
+│  │  │  ├── __init__.py
+│  │  │  ├── dependencies.py
+│  │  │  ├── jwt_handler.py
+│  │  │  └── password_utils.py
+│  │  ├── config.py
+│  │  ├── database
+│  │  │  ├── __init__.py
+│  │  │  ├── connection.py
+│  │  │  └── models.py
+│  │  ├── main.py
+│  │  ├── routers
+│  │  │  ├── __init__.py
+│  │  │  ├── admin_routes.py
+│  │  │  ├── auth_routes.py
+│  │  │  ├── checkin_routes.py
+│  │  │  ├── cleaner_routes.py
+│  │  │  └── room_routes.py
+│  │  ├── services
+│  │  │  ├── __init__.py
+│  │  │  ├── assignment_service.py
+│  │  │  ├── cleaning_service.py
+│  │  │  ├── customer_service.py
+│  │  │  └── room_service.py
+│  │  ├── storage
+│  │  │  ├── __init__.py
+│  │  │  └── minio_client.py
+│  │  ├── utils
+│  │  │  ├── __init__.py
+│  │  │  └── logger.py
+│  │  └── websocket
+│  │     ├── __init__.py
+│  │     └── socket_manager.py
+│  ├── requirements.txt
+│  └── venv
+│     ├── bin
+│     │  ├── python -> python3
+│     │  ├── python3 -> /usr/bin/python3
+│     │  └── python3.12 -> python3
+│     ├── include
+│     │  └── python3.12
+│     ├── lib
+│     │  └── python3.12
+│     │     └── site-packages
+│     ├── lib64 -> lib
+│     └── pyvenv.cfg
+├── frontend
+|  ├──node_modules
+│  ├── index.html
+│  ├── package-lock.json
+│  ├── package.json
+│  ├── postcss.config.js
+│  ├── public
+│  │  └── vite.svg
+│  ├── README.md
+│  ├── src
+│  │  ├── api
+│  │  │  └── apiClient.js
+│  │  ├── App.css
+│  │  ├── App.jsx
+│  │  ├── assets
+│  │  │  └── react.svg
+│  │  ├── components
+│  │  │  ├── CheckinModal.jsx
+│  │  │  ├── CheckoutModal.jsx
+│  │  │  ├── CleaningTaskCard.jsx
+│  │  │  └── RoomCard.jsx
+│  │  ├── context
+│  │  │  └── AuthContext.jsx
+│  │  ├── index.css
+│  │  ├── main.jsx
+│  │  ├── pages
+│  │  │  ├── AdminPanel.jsx
+│  │  │  ├── CleanerDashboard.jsx
+│  │  │  ├── CREDashboard.jsx
+│  │  │  └── LoginPage.jsx
+│  │  └── websocket
+│  │     └── socket.js
+│  ├── tailwind.config.js
+│  └── vite.config.js
+├── instruction.md
+├── structre.txt
+└── system-architecture.md
