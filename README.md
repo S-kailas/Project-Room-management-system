@@ -214,24 +214,6 @@ aadhaar-images/customer_id/aadhaar.jpg
 The database only stores the **object path**.
 
 Images are **never deleted**.
-
----
-
-# Payment Method
-
-Payment method is a **text field**.
-
-Typical values:
-
-```
-Cash
-UPI
-Card
-Online
-```
-
-However, **any custom text input is allowed**.
-
 ---
 
 # Check-In Workflow
