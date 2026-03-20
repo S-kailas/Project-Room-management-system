@@ -1,7 +1,7 @@
 # Room Management System
 
 A full-stack **web-based room management system** designed for small lodging facilities.
-
+(Setup manual inside room-management-system dir)
 The system manages:
 
 - Guest check-in
