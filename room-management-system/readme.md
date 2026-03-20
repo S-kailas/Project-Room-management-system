@@ -1,6 +1,6 @@
 # Room Management System — Localhost/VPS Initial Setup
 
-This guide installs and runs the **Room Management System** on a **fresh Linux VPS**.
+This guide installs and runs the **Room Management System** on a **Linux Local-machine/VPS**.
 
 Stack used:
 
